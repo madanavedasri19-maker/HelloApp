@@ -1,5 +1,5 @@
 # HelloApp Use Cases
-## UC5:ENhanced For Loop
--Uses for-each loop to process multiple inputs
--Uses StringBuilder for efficient string building
-            -Defaults to "World"
+## UC5:Substring Method
+-Uses substring() to remove trailing delimiter
+-Cleaner than conditional comma handing
+            -Uses StringBuilder
