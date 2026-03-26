@@ -1,3 +1,5 @@
 # HelloApp Use Cases
-## UC1: Display Hello World
-Prints Hello World in console
+## UC4: Display Heelo with Multiple Names
+-Accepts multiple command-line aruguments
+    -Joins names using comma separator
+        -Defaults to "World" if no input
