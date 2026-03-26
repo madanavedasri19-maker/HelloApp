@@ -4,14 +4,16 @@ public class HelloApp {
 
     public static void main(String[] args) {
 
-        // Check if user passed argument
-        if (args.length > 0) {
-            String name = args[0];
-            System.out.println("Hello, " + name + "!");
+        String names;
+
+        // If no arguments → default
+        if (args.length == 0) {
+            names = "World";
         } else {
-            // Default case (same as UC1)
-            System.out.println("Hello, World!");
+            // Join all names with comma
+            names = String.join(", ", args);
         }
 
+        System.out.println("Hello, " + names + "!");
     }
 }
