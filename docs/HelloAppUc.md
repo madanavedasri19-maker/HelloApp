@@ -1,5 +1,5 @@
 # HelloApp Use Cases
-## UC4: Display Heelo with Multiple Names
--Accepts multiple command-line aruguments
-    -Joins names using comma separator
-        -Defaults to "World" if no input
+## UC5:ENhanced For Loop
+-Uses for-each loop to process multiple inputs
+-Uses StringBuilder for efficient string building
+            -Defaults to "World"
